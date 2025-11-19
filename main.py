@@ -1,3 +1,7 @@
+from keepalive import keep_alive
+keep_alive()
+
+
 import os
 from time import sleep
 from pyrogram import Client
